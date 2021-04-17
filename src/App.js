@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+ 
+ import './App.css';
+
+ // import components 
+ import {Header} from './components/Header'
+
+
 
 function App() {
   return (
-    <div>
-      EXPENSE TRACKER BY MASHAFI
-    </div>
+    <Header />
   );
 }
 
